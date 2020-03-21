@@ -21,8 +21,7 @@ if __name__ == '__main__':
     periods = [['01', 'Jan', Keys.ARROW_RIGHT, '2016'],
                [day, month, Keys.ARROW_RIGHT, year]]
 
-    # uncheck the automatic retweets select '2'
-    options = ['2']
+    options = []
     export_option = '3'  # '3' for csv '4' for json
 
     # set-up chrome webdriver
